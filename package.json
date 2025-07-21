@@ -1,0 +1,14 @@
+{
+  "name": "invoice-processor",
+  "version": "1.0.0",
+  "description": "A script to process invoices, handling optional discount codes",
+  "main": "dist/invoiceProcessor.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/invoiceProcessor.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
